@@ -11,10 +11,10 @@ import axios from "axios";
 // const { user, isAuthenticated } = useAuth0();
 // const { isLoading, isAuthenticated: auth, user } = useAuth0();
 
-// axios.defaults.baseURL = 'http://localhost:3001';
-axios.defaults.headers.common['Authorization'] = sessionStorage.getItem('user');
 
-axios.defaults.baseURL = 'https://pfstreetartwineclubbackend-production.up.railway.app';
+axios.defaults.headers.common['Authorization'] = sessionStorage.getItem('user');
+// axios.defaults.baseURL = 'http://localhost:3001'; 
+axios.defaults.baseURL = 'https://pfstreetartwineclubbackend-production-aa4a.up.railway.app';
 
 const domain = "dev-eqjids43tpn0c5lj.us.auth0.com";
 const clientId = "CW1fFkRrBryYtSpyefTvYFWGf6sNQNhg";
