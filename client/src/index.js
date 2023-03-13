@@ -16,8 +16,8 @@ axios.defaults.headers.common['Authorization'] = sessionStorage.getItem('user');
 // axios.defaults.baseURL = 'http://localhost:3001'; 
 axios.defaults.baseURL = 'https://pfstreetartwineclubbackend-production-aa4a.up.railway.app';
 
-const domain = "dev-eqjids43tpn0c5lj.us.auth0.com";
-const clientId = "CW1fFkRrBryYtSpyefTvYFWGf6sNQNhg";
+const domain = "dev-m8cyeyymdhng4yms.us.auth0.com";
+const clientId = "1bIjccmBcjJFud2ipmgarfLJc7jGYjrQ";
 
 ReactDOM.render(
   <Provider store={store}>
@@ -26,7 +26,7 @@ ReactDOM.render(
         domain={domain}
         clientId={clientId}
         authorizationParams={{
-          redirect_uri: "https://pf-street-art-wine-club-front-en-git-bb3b74-matias-rodriguez-ux.vercel.app/userprofile",
+          redirect_uri: "https://pf-street-art-wine-club-front-end-b2mj-git-production-javipeder.vercel.app/userprofile",
         }}
       >
         <App />
