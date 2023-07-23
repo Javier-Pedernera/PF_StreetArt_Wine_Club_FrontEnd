@@ -14,7 +14,7 @@ import axios from "axios";
 
 axios.defaults.headers.common['Authorization'] = sessionStorage.getItem('user');
 // axios.defaults.baseURL = 'http://localhost:3001'; 
-axios.defaults.baseURL = 'https://pfstreetartwineclubbackend-production-aa4a.up.railway.app';
+axios.defaults.baseURL ='pfstreetartwineclubbackend-production-d075.up.railway.app';
 
 const domain = "dev-m8cyeyymdhng4yms.us.auth0.com";
 const clientId = "1bIjccmBcjJFud2ipmgarfLJc7jGYjrQ";
